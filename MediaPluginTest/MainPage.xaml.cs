@@ -21,7 +21,7 @@ namespace MediaPluginTest
             if (!CrossMedia.IsSupported)
                 DisplayAlert("Not supported", "The plugin CrossMedia is not supported!", "OK");
 
-            DisplayAlert("--- Initialize ---", "The plugin CrossMedia has beenn started!", "OK");
+            DisplayAlert("--- Initialize ---", "The plugin CrossMedia has been started!", "OK");
 
             takePhoto.Clicked += async (sender, args) =>
             {
